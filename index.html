@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevConnect - Portfolio Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 DevConnect - Portfolio Builder</h1>
+  <div class="container">
+    <form id="portfolioForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="text" id="role" placeholder="Your Role (e.g., Web Developer)">
+      <textarea id="about" placeholder="About You"></textarea>
+      <input type="text" id="skills" placeholder="Skills (comma separated)">
+      <button type="submit">Generate Portfolio</button>
+    </form>
+
+    <div id="preview">
+      <h2 id="pName"></h2>
+      <h3 id="pRole"></h3>
+      <p id="pAbout"></p>
+      <h4>Skills:</h4>
+      <ul id="pSkills"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

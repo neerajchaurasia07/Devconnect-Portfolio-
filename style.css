@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0e1117;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+form, #preview {
+  width: 45%;
+  background: #161b22;
+  padding: 20px;
+  border-radius: 10px;
+}
+input, textarea, button {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  background: #58a6ff;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #1f6feb;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
